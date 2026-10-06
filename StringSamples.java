@@ -1,3 +1,4 @@
+package de.explicatis.bfd;
 
 public class StringSamples {
 
@@ -23,7 +24,7 @@ public class StringSamples {
 		
 		// equals überprüft den INHALT !
 		// kann in der Objektorientierung flexibek genutzt werden
-		// z.B. nach welchem Kriterium werden Austos, Schlüssel, Laptops, ...
+		// z.B. nach welchem Kriterium werden Autos, Schlüssel, Laptops, ...
 		// Bei Strings kann man neben dem Inhalt auch die Länge des Textes
 		// einfach nur vergleichen. 
 		result = dienstnummer.equals(dienstnummer2);
@@ -32,6 +33,9 @@ public class StringSamples {
 		dienstnummer = dienstnummer2;
 		result = dienstnummer == dienstnummer2;
 		System.out.println(result);
+		
+		// reguläre Ausdrücke zum Durchsuchen von Mustern auf strings
+		// z.B. Validierung 
 	}
 
 }

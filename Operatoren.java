@@ -1,3 +1,4 @@
+package de.explicatis.bfd;
 
 public class Operatoren {
 
@@ -80,6 +81,29 @@ public class Operatoren {
 		result = (-10 + 20) * 3 <= 15 && 80 + 3 * -2 > 0; 
 		
 		
+		int i = 0;
+		i = i + 1;
+		i += 1; // kombinierter Zuweisungsoperator
+		i++; // Post-Inkrement
+		++i; // Prä-Inkrement
+		
+		i = 0;
+		System.out.println("Post-Inkrement von i: " + i++);
+		System.out.println(i);
+		
+		i = 0;
+		System.out.println("Prä-Inkrement von i: " + ++i);
+		System.out.println(i);
+		
+		i = 0;
+		// 0 + 2 + 1
+		i = i++ + ++i + 1;
+		System.out.println(i);
+		
+		i = 0;
+		// 1 + 2 + 1
+		i = ++i + ++i + 1;
+		System.out.println(i);
 	}
 
 }
