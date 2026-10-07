@@ -15,6 +15,16 @@ public class Kinosaal {
 		// 3 Kinosaal anzeigen
 		// B - Beenden
 		
+		
+		// Möglicher Lösungsweg:
+		// do .. while außen rum
+		// Menüpunkte
+		// Auswertung der Eingabe des Menüs in einem switch case
+		// Bei der Buchung muss die Position in der Liste neu geschrieben werden. 
+		// Vorsicht: Gebuchte Plätze nicht nochmal buchen !
+		// Nur gültige Sitze auswählen (nicht außerhalb des Saals ;-)), z.B. 100, 300
+		// in den cases werden die aktionen eingefügt 
+		
 		char[][] kinosaal = new char[10][20];
 		
 		
