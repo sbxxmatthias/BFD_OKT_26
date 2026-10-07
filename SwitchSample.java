@@ -94,4 +94,7 @@ public class SwitchSample {
 		SAMSTAG,
 		SONNTAG
 	}
+	
+	// matthias.hofmann@novabotics.group 
+	
 }

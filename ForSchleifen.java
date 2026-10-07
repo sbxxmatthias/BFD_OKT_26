@@ -76,6 +76,25 @@ public class ForSchleifen {
 		// werden durch FizzBuzz ersetzt.
 		// Optional: Alle durch 10 teilbaren Zahlen auslassen. 
 		
+		// Luhn Algorithmus: Implementieren !
+		
+		/*
+		 * Schreibe ein Programm, das die Gültigkeit einer Kreditkartennummer mithilfe des Luhn Algorithmus überprüft. Der Benutzer sollte die Kreditkartennummer als Eingabe eingeben können, und das Programm sollte ausgeben, ob die Nummer gültig ist oder nicht.
+
+Der Luhn Algorithmus, auch als Modulus 10 oder mod 10 Algorithmus bekannt, wird häufig zur Überprüfung der Gültigkeit von Kreditkartennummern verwendet. Hier ist eine vereinfachte Erläuterung des Algorithmus:
+
+-	Durchlaufe die Nummer ziffernweise von rechts nach links und bilde die Summe der Ziffern
+-	Verdoppele dabei jede zweite Ziffer, und wenn dabei ein Wert größer als 9 herauskommt, subtrahiere 9
+-	Addiere alle Summen der Ziffern der Kreditkartennummer
+-	Modulo 10 überprüfen: Überprüfe, ob die Summe durch 10 teilbar ist. Die Kreditkartennummer ist gültig, wenn die Summe durch 10 ohne Rest teilbar ist.
+
+
+Gegeben sei die Beispielidentifikationsnummer 446667651
+
+		 * 
+		 */
+		
+		
 		
 	}
 
