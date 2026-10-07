@@ -45,6 +45,28 @@ public class ArraysBeispiele {
 		}
 		
 		
+		/**
+		 * 
+		 * 
+		 * 
+=========
+Lasse den Nutzer 10 Werte eingeben und berechne Summe und Durchschnitt der Werte im Array. 
+ODER 
+Erstelle eine Liste von Teilnehmern und konvertiere die Namen in Großbuchstaben
+name.toUpperCase();
+
+=========
+Erstelle ein Array von Zahlen und gib diese in umgekehrter Reihenfolge auf der Konsole aus. 
+Beispiel: 123456 => 654321
+
+=========
+Erstelle ein Array von Zahlen und drehe die Reihenfolge der Elemente mithilfe einer Schleife um. 
+Setze den ersten Wert an die letzte Stelle und den letzten Wert an die erste Stelle usw. 
+Baue deine Schleife so, dass du kein weiteres Array benötigst.
+
+
+		 */
+		
 	}
 
 }
