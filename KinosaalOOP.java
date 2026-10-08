@@ -60,4 +60,50 @@ public class KinosaalOOP {
 		JOptionPane.showMessageDialog(null, saal);
 	}
 	
+	
+	
+	
+	
+	
+	// Aufgabe 1
+	/* Klasse Auto
+	 * 
+	 * Eigenschaften;
+	 * 
+	 * Hersteller, Fahrzeugtyp, Modell, Kilometerstand, PS, Preis
+	 * 
+	 * 2 Konstruktoren bauen (Standardkonstruktor, individuelle Konstruktor
+	 * 
+	 * Mindestens 2 Methoden
+	 * 
+	 * fahren(int kilometerstand) => eigenen Kilometerstand erhöhe
+	 * info(): Alle Eigenschaften des Autos sollen ausgegeben werden.
+	 * 
+	 * main() soll in Auto, kein Menü
+	 * 
+	 * 
+	 * Aufgabe 2
+	 * Tamagotchi
+	 * Denkt Euch Eigenschaften aus, z.B. Name, Lebenspunkte, mana, emotion, ...
+	 * 
+	 * Denkt Euch 8 Aktionen aus, z.B. Füttern, Massakrieren, ...
+	 * 	 * Methoden, die die gewählten Aktionen abbilden:
+	 * In der Klasse Tamagotchi: fuettern(), schlafen(), ...
+	 * 
+	 * Ablaufsteuerung: Klasse Main (Menüführung und Auswahl)
+	 * 
+
+	 * 
+	 * */
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
