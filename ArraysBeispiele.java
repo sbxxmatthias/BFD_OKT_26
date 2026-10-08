@@ -66,7 +66,7 @@ Baue deine Schleife so, dass du kein weiteres Array benötigst.
 
 
 		 */
-		
+			
 	}
 
 }
