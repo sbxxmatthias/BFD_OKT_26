@@ -39,6 +39,21 @@ public class KinosaalOOP {
 			saalplan[reihe-1][platz-1] = 'X';
 	}
 	
+	public void buchen(String angabe) {
+		
+		String[] teile = angabe.split(",");
+		
+		int reihe = Integer.parseInt(
+					teile[0]
+				);
+		
+		int platz = Integer.parseInt(
+					teile[1]
+				);
+		
+		buchen(reihe, platz);
+	}
+	
 	
 	private void init() {
 		for (int i = 0; i < saalplan.length; i++) {
@@ -102,7 +117,7 @@ public class KinosaalOOP {
 	
 	
 	
-	
+	// qlzn1234 
 	
 	
 	

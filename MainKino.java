@@ -11,8 +11,17 @@ public class MainKino {
 		dueren.zeigePlan();
 		hürth.zeigePlan();
 		
+		// Methodenüberladung:
+		// Verarbeitung mit unterschiedlichen Eingaben möglich.
+		// Methode heißt gleich
 		dueren.buchen(2, 5);
+		dueren.buchen("3,5");
 		dueren.zeigePlan();
+		
+		
+		hürth = dueren;
+		
+		hürth.buchen(5,6);
 		
 		// zwei individuelle Säle, die an unterschiedlichen Stellen im Speicher leben
 		// aber gleich aufgebaut sind. 
